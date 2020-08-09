@@ -1,0 +1,100 @@
+
+main {
+margin-top: 68px;
+}
+
+#menu {
+  margin: auto;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  float: left;
+  left: -10px;
+  top: 0;
+  width: 100%;
+}
+#menu li {
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#menu li:hover {
+  padding: 14px 16px;
+ background-color: #222;
+}
+
+#menu li a {
+text-decoration: none;
+color: white;
+}
+
+#about {
+padding: 1em;
+}
+
+#cilBakPrace {
+padding: 1em;
+background-color: gray;
+}
+#metodyBakPrace {
+padding: 1em;
+
+}
+#zdrojeBakPrace {
+padding: 1em;
+background-color: gray;
+}
+#zdrojeBakPrace a {
+display: block;
+text-decoration: none;
+color: black;
+font-weight: 300;
+}
+#zdrojeBakPrace a:hover {
+text-decoration: underline;
+}
+
+#trasaPetrohrad {
+padding: 1em;
+}
+
+#trasaPetrohrad .caption {
+width: 100%;
+position:static;
+background-color: gray;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+.table1 {
+overflow-x:auto;
+}
+.tableHeader {
+background-color: gray;
+color: white;
+}
+
+footer  {
+width: 100%;
+left: -10px;
+bottom: -10px;
+position: relative;
+background-color: #ccc;
+padding: 1em;
+text-align: center;
+} 
+
+footer nav a {
+text-decoration: none;
+margin-right: 0.2em;
+color: #333;
+} 
+
+footer nav a:hover {
+text-decoration: underline;
+} 

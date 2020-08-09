@@ -1,0 +1,1262 @@
+
+
+.ButtonsAll {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+   } 
+   .containerBoxButton{
+       margin:0 auto;
+       position: relative;
+       padding-bottom: 20px;
+       
+   }
+
+
+
+
+.containerPictureDocterBox h1{
+    line-height:60px ;
+    font-family:Arial;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+}
+.containerPictureDocterBox p{
+    color:#063c3c;
+     font-family:Arial;
+     font-size: 20px;
+     text-align: justify;
+     line-height: 35px;  
+     
+}
+  img.Zubar  {
+
+    height: 200px;
+    width:300px; 
+float:left;
+clear:both;
+margin-top: 6%;
+margin-right:4%;
+margin-bottom: 6%;
+border: 6px solid darkcyan;
+
+}
+   
+
+.containerBox{
+    margin-top: 2em;
+}
+.containerBox h2{
+    line-height:10px ;
+    font-family:Arial;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+     text-indent: 30px;
+}
+hr.new1{
+   width: 100%;
+    border: 2px solid #006f6f;  
+}
+.containerBox1{
+  margin-bottom: 60px;
+}
+.containerPicture {
+    position: relative;
+    display: block;
+   
+    text-align: center;
+    margin:0 auto;
+}
+
+
+.containerPicture img{
+    height:170px;
+    width:170px;
+    margin-top: 30px;
+}
+.containerPicture figcaption{
+   margin-top: 15px;
+    font-family:Arial;
+    font-size: 20px; 
+    text-transform: capitalize;
+    color:darkcyan;
+ font-weight: bold;
+    text-align: center;
+      line-height: 45px; 
+ 
+}
+.containerBox1 p{
+    color:#063c3c;
+     font-family:Arial;
+     font-size: 16px;
+     text-align: justify;
+     line-height: 25px;  
+}
+
+  
+    
+
+
+
+
+
+
+
+
+
+ #button2  {
+    width: 90%;
+    margin: 0 auto;
+   
+    position: relative; 
+    padding-bottom: 2em;
+}
+
+#button3{
+    
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    position: relative;  
+}
+
+#button4{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom:2em;
+    position: relative;    
+}
+div.Line{
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    background: white;
+}
+
+img.Linetooth {
+    float: left;
+    height: 60px;
+    width:60px;  
+}
+
+divLine{
+    width: 100%;
+    height: 6px;
+    background-color: gold;
+}
+div.empty{
+    width: 100%;
+    height: 6px;
+    background-color: gold;
+}
+div.Line h1{
+    line-height:60px ;
+    font-family:Arial;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+    color:#047e7e;
+    margin-top: 14px;
+}
+div.Textbox1 {
+  
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+div.Textbox2{
+   
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+/*#listNumber{
+    color: darkcyan; 
+    font-size: 16px;
+    font-family:Arial;
+    font-weight: bold;
+}*/
+/*#listNumber p{
+    color: darkcyan; 
+    font-size: 16px;
+    font-family:Arial;
+  
+}*/
+li.listDot {
+ 
+    font-size: 14px;
+   line-height: 28px;
+
+}
+h3.listNotes {
+    color: darkcyan;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+h5.listNotes {
+    color: darkcyan;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+#buttonReadMore{
+ background: darkcyan;
+ color:white;
+ border:none;
+ font-size:16px;
+ font-weight: bold;
+
+
+
+}
+div.Textbox3{
+ 
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.Textbox1 p {
+     color:#063c3c;
+     font-family:Arial;
+     font-size: 18px;
+     text-align: justify;
+     line-height: 35px;    
+}
+.Textbox2 p {
+    color:#063c3c;
+     font-family:Arial;
+     font-size: 18px;
+     text-align: justify;
+     line-height: 35px;    
+}
+.Textbox3 p {
+    color:#063c3c;
+     font-family:Arial;
+     font-size: 18px;
+     text-align: justify;
+     line-height: 35px; 
+}
+
+#button5 {
+    width: 100%;
+    padding-bottom: 2em;
+    padding-top: 4em;
+    position: relative;
+    padding: 2em;
+   
+}
+#button5 h1{
+    line-height:60px ;
+    font-family:Arial;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+    text-indent: 60px;
+    line-height: 8px;
+}
+
+div.Textbox4{
+    padding-bottom: 2em;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.Textbox4 p{
+    padding-top: 40px;
+    color:#063c3c;
+    font-family:Arial;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 35px;
+}
+div.InsuranceBox{
+margin: 0 auto;
+width: 90%;  
+position: relative;
+text-align:center;
+padding-bottom: 6em;
+}
+.InsuranceBox h4{
+    text-align: left; 
+    color:#006f6f;
+    font-family:Arial;
+    font-weight: bold;
+    line-height: 50px;
+    text-indent: 60px;
+    
+}
+
+img.InsuranceLogo1{
+    width: 180px;
+    height: 100px;
+}
+img.InsuranceLogo2{
+    width: 200px;
+    height: 100px;
+}
+img.InsuranceLogo3{
+    width: 240px;
+    height: 100px;
+}
+img.InsuranceLogo4{
+    width: 240px;
+    height:80px;
+}
+div.Borderbox{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.table th, td{
+    color: darkcyan;
+}
+.table tr{
+    border: 2px solid gold; 
+}
+
+
+
+#button6 {
+    margin: 0 auto;
+    width: 100%;    
+    position: relative;
+    padding-bottom: 2em;   
+    text-decoration: none;
+}    
+#button6 h1{
+    line-height:60px ;
+    font-family:Arial;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+    text-indent: 60px;
+    line-height: 8px;  
+}  
+  
+.Textbox5{
+   
+   padding-bottom: 2em;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.Textbox5 h4{
+    text-align: left; 
+    color:#006f6f;
+    font-family:Arial;
+    font-weight: bold;
+    line-height: 50px;
+    text-indent: 60px;
+    font-size: 24px;
+   
+}
+.Textbox5 p{
+    padding-left:30px;
+    color:#063c3c;
+    font-family:Arial;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 1px;
+   
+}
+.boxList{
+    text-align: center;
+    font-size: 18px;
+    line-height: 35px;
+    border:20px solid gold;
+    background-color: gold; 
+    
+}
+hr.new2{
+    width: 50%;
+    border: 2px solid #006f6f; 
+}
+ul.list {
+  list-style-type: none;
+ 
+}
+.list i {
+    margin-right: 8px;
+   
+}
+li.bus{
+    margin-top: 20px;
+    padding-right:40px;
+    font-weight: bold;
+    color: darkcyan;
+}
+li.locationClinic{
+    margin-top: 20px;
+   
+}
+
+.contactInformation{
+  margin-top: 20px;
+}
+.contactInformation1{
+      padding-left: 21px;
+}
+
+
+
+
+
+
+/*Forms */
+/*div.setAppointment{
+  border-radius: 5px;
+  background-color:transparent;
+
+
+height: 400px;
+}
+.col{
+    width:260px;
+}
+.col1{
+    width:260px;
+}
+.col2{
+  width: 260px;
+}
+input[type=text]:focus {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ffb732;
+  border-radius: 4px;
+}
+button[type=submit] {
+  background-color: darkcyan;
+ border: 1px solid darkcyan;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+
+ font-weight: bold;
+}
+
+button[type=submit]:hover {
+  background-color: gold;
+  border: 1px solid gold;
+  color: darkcyan;
+
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ffb732;
+  border-radius: 4px;
+}
+#exampleFormControlInput1{
+     border: 1px solid #ffb732;
+     
+}
+
+#exampleFormControlTextarea1{
+  border: 1px solid #ffb732;
+}
+label{
+    color:darkcyan;
+}*/
+.backgroundMap{
+    background: gold;
+    padding-bottom:40px;
+      margin: 0 auto;
+} 
+#m {
+    margin: 0 auto;
+    height:360px;
+    width: 860px;
+  border:2px solid #006f6f;
+}
+
+
+#button7 {
+    width: 100%;
+    margin: 0 auto;
+}
+#button7 h3 {
+    line-height:60px ;
+    font-family:Arial;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+    text-indent: 10px;
+    line-height: 8px;  
+}
+hr.new6{
+    width: 100%;
+    border: 2px solid #006f6f; 
+}
+.text8 p{
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    color:#063c3c;
+    font-family:Arial;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 1px;
+}
+.colorText{
+    color:red;
+    font-weight: bold;
+}
+
+th {
+    color:gold;
+}
+#notice h4{
+    font-weight: bold;
+}
+#notice1{
+    padding-top: 8px;
+    font-weight: bold;
+    color:darkcyan;
+}
+
+.text9{
+    color:blue;
+    font-size: 22px;
+ 
+ font-family:Times New Roman,sans-serif;
+}
+#folder h5{
+    background-color:darkcyan;
+  text-align: center;
+  font-size: 16px;
+   border:6px solid darkcyan;
+      color:white;
+      font-weight: bold;
+}
+#folder p{
+
+    padding: 6px;
+
+   
+}
+#folder1 h5{
+     background-color:darkcyan;
+  text-align: center;
+  font-size: 16px;
+   border:6px solid darkcyan;
+      color:white;
+      font-weight: bold;
+}
+#folder1 p{
+ 
+    padding: 6px;
+
+   
+}
+#folder2 h5{
+   background-color:darkcyan;
+  text-align: center;
+  font-size: 16px;
+   border:6px solid darkcyan;
+      color:white;
+      font-weight: bold;
+}
+#folder2 p{
+  
+    padding: 6px;
+}
+#folder3 h5{
+       background-color:darkcyan;
+  text-align: center;
+  font-size: 16px;
+   border:6px solid darkcyan;
+      color:white;
+      font-weight: bold;
+}
+#folder3 p{
+
+    padding: 6px;
+}
+hr.new9{
+    width:92%;
+    border: 2px solid #006f6f; 
+}
+hr.new8{
+    width:92%;
+    border: 2px solid #006f6f; 
+    
+}
+.emptySpace12{
+    padding: 6px;
+}
+#footerBackground{
+    background-color: darkcyan;
+      margin: 0 auto;
+    padding: 20px;
+}
+#copyRightBackground{
+    padding: 16px;
+}
+#footerLogo{
+    height: 80px;
+    width: 102px;
+    border: 2px solid #ffd105;
+}
+#boxContent h5{
+  color: white;
+    font-size: 18px;
+}
+#boxContent p{
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+
+        
+}
+
+#ContantOfFooter {
+    color: white;
+    font-size: 14px;
+    text-align:  center;
+
+}
+#ContantOfFooter ul{
+     list-style-type: none;
+     text-align: justify;
+}
+#ContantOfFooter h5 {
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+}
+#kontaktyFooter li{
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#ContantOfFooterA ul{
+  list-style-type: none;
+
+}
+#ContantOfFooterA ul li{
+   text-align: justify;
+   font-size:14px;
+  
+}
+
+#textColorFooter ul li a { 
+    color:white;
+    text-decoration: none;
+}
+#textColorFooter{
+    color:white;
+}
+#kontaktySeznam{
+  text-align: center;  
+}
+#kontaktySeznamA {
+  text-align: center;  
+}
+#copyRightBackground{
+    font-size:12px;
+     color:white;
+}
+#footerBackground{
+    background-color: darkcyan;
+}
+/*hdhfdhfhfghfgddddddddddddddddddddddddddddddddddddddhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhfd*/
+@media screen and (max-width:1080px){
+
+#button1 h1  {
+    line-height:30px ;
+    font-size: 24px;   
+}
+.containerBox1{
+    margin-bottom: 2px;
+}
+#button1 p {
+     font-size: 16px;
+     line-height: 30px; 
+}
+
+#button2{
+    padding-top: 4em;
+    padding-bottom:1em;
+}
+div.Line h1{
+   line-height:40px ;
+   font-size: 24px;
+   text-align: center;
+   margin-left: 2%;
+}
+.Textbox1 p{
+    font-size: 16px;
+    line-height: 30px; 
+}
+#button3{
+    padding-top: 4em;
+    padding-bottom:1em;
+}
+.Textbox2 p{
+    font-size: 16px;
+    line-height: 30px;
+}
+#button4{
+    padding-top: 4em;
+    padding-bottom:2em;
+}
+.Textbox3 p{
+    font-size: 16px;
+    line-height: 30px;
+}
+   #button5 {
+    width: 100%;
+    padding-bottom: 2em;
+    padding-top: 4em;
+    position: relative;
+    padding: 2em;
+   
+}
+#button5 h1{
+    line-height:60px ;
+    font-family:Arial;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+    text-indent: 60px;
+    line-height: 8px;
+}
+
+div.Textbox4{
+    padding-bottom: 2em;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.Textbox4 p{
+   padding-top: 20px;
+    color:#063c3c;
+    font-family:Arial;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+}
+div.InsuranceBox{
+margin: 0 auto;
+width: 90%;  
+position: relative;
+text-align:center;
+padding-bottom: 6em;
+}
+.InsuranceBox h4{
+    text-align: left; 
+    color:#006f6f;
+    font-family:Arial;
+    font-weight: bold;
+    line-height: 50px;
+    text-indent: 60px;
+    
+}
+
+img.InsuranceLogo1{
+    width: 190px;
+    height: 110px;
+}
+img.InsuranceLogo2{
+    width: 220px;
+    height: 110px;
+}
+img.InsuranceLogo3{
+    width: 230px;
+    height: 110px;
+}
+img.InsuranceLogo4{
+    width: 180px;
+    height:70px;
+}
+div.Borderbox{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.table th, td{
+    color: darkcyan;
+}
+.table tr{
+ border: 2px solid gold; 
+}
+.emptyContainer{
+    margin:0 auto;
+    padding: 10em;
+
+}
+
+
+
+
+img.Zubar  {
+      margin-top:65px; ;
+     margin-left: 6px;
+    height: 170px;
+    width:250px; 
+ 
+    border: 6px solid darkcyan;
+}
+.containerBox{
+    margin-top: 20em;
+}
+.containerBox h2{
+    font-size: 24px;
+}
+hr.new1{
+   width: 100%;
+    border: 2px solid #006f6f;  
+}
+
+hr.new8{
+   width: 92%;
+    border: 2px solid #006f6f;  
+}
+.containerPicture {
+    position: relative;
+    display: block;
+   
+    text-align: center;
+    margin:0 auto;
+}
+.containerPicture img{
+margin-top: 25px;
+    height:150px;
+    width:150px;
+}
+.containerPicture figcaption{
+   margin-top: 15px;
+    font-family:Arial;
+    font-size: 16px; 
+    text-transform: capitalize;
+    color:darkcyan;
+ font-weight: bold;
+    text-align: center;
+      line-height: 45px; 
+ 
+}
+.containerBox1 p{
+    color:#063c3c;
+     font-family:Arial;
+     font-size: 14px;
+     text-align: justify;
+     line-height: 20px;  
+}
+hr.new9{
+    width:92%;
+    border: 2px solid #006f6f; 
+}
+#m {
+    margin: 0 auto;
+    height:360px;
+    width: 580px;
+    margin-bottom: 20px;
+     border:2px solid #006f6f;
+}
+}
+/*hdhfdhfhfghfgddddddddddddddddddddddddddddddddddddddhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhfd*/
+@media screen and (max-width: 800px){
+  
+
+#button1 h1  {
+    line-height:30px ;
+    font-size: 20px;   
+}
+
+#button1 p {
+    font-size: 16px;
+    line-height: 22px; 
+}
+.containerPictureDocterBox{
+ margin-top: 50px;
+
+}
+#button2{
+    padding-top: 4em;
+    padding-bottom:1em;
+}
+div.Line h1{
+   line-height:26px ;
+   font-size: 20px;  
+   text-align: center;
+   margin-left: 2%;
+}
+.Textbox1 p{
+    font-size: 16px;
+    line-height: 26px;  
+}
+#button3{
+    padding-top: 4em;
+    padding-bottom:1em;
+}
+.Textbox2 p{
+    font-size: 16px;
+    line-height: 26px; 
+}
+#button4{
+    padding-top: 4em;
+    padding-bottom:2em;
+}
+.Textbox3 p{
+    font-size: 16px;
+    line-height: 26px;  
+}
+.emptyContainer{
+    margin:0 auto;
+    padding: 10em;
+}
+
+
+#button7 h3 {
+    font-size: 26px;
+}
+.text9{
+    color:blue;
+    font-size: 20px;
+ 
+ font-family:Times New Roman,sans-serif;
+}
+
+hr.new1{
+   width: 100%;
+    border: 2px solid #006f6f;  
+}
+
+.containerPicture {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin:0 auto;
+}
+
+
+
+.containerPicture img{
+   
+    height:170px;
+    width:170px;
+}
+.containerPicture figcaption{
+   margin-top: 10px;
+    font-family:Arial;
+    font-size: 16px; 
+    text-transform: capitalize;
+    color:darkcyan;
+ font-weight: bold;
+    text-align:center;
+      line-height: 45px; 
+ 
+}
+.containerBox1 p{
+    color:#063c3c;
+     font-family:Arial;
+     font-size: 16px;
+     text-align: justify;
+     line-height: 25px;  
+}
+hr.new9{
+    width:92%;
+    border: 2px solid #006f6f; 
+}
+
+}
+/*hdhfdhfhfghfgddddddddddddddddddddddddddddddddddddddhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhfd*/
+@media screen and (max-width: 700px){
+ #button1 {
+    top:2em;
+    width: 88%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+img.Zubar  {
+    margin: 0;
+    height: 140px;
+    width:215px; 
+    float: none;
+    border: 6px solid darkcyan;
+}
+
+#button1 h1  {
+    line-height:30px ;
+    font-size: 24px;   
+}
+#button1 p {
+     font-size: 16px;
+     line-height: 24px; 
+}
+#button2{
+    padding-top: 4em;
+    padding-bottom:1em;
+}
+div.Line h1{
+   line-height:24px ;
+   font-size: 18px; 
+   text-align: center;
+   margin-left: 2%;
+}
+.Textbox1 p{
+    font-size: 16px;
+    line-height: 24px; 
+}
+#button3{
+    padding-top: 4em;
+    padding-bottom:1em;
+}
+.Textbox2 p{
+    font-size: 16px;
+    line-height: 24px; 
+}
+#button4{
+    padding-top: 4em;
+    padding-bottom:2em;
+}
+.Textbox3 p{
+    font-size: 16px;
+    line-height: 24px; 
+}
+#button5 h1{
+   text-indent: 20px;
+   font-size: 24px;
+   line-height:0.2px;
+}
+ 
+
+.Textbox4 p{
+   padding-top: 20px;
+   font-size: 16px;
+   line-height: 24px; 
+}
+div.InsuranceBox{
+padding-bottom: 2em;
+}
+
+
+img.InsuranceLogo1{
+    width: 130px;
+    height: 75px;
+}
+img.InsuranceLogo2{
+    width: 170px;
+    height: 80px;
+}
+img.InsuranceLogo3{
+    width: 140px;
+    height: 70px;
+}
+img.InsuranceLogo4{
+    width: 160px;
+    height:70px;
+}
+.emptyContainer{
+    margin:0 auto;
+    padding: 10em;
+}
+
+
+#button6 h1{
+    line-height:60px ;
+    font-family:Arial;
+    font-size: 24px; 
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+    text-indent: 60px;
+    line-height: 8px;  
+}  
+
+div.Textbox5{
+font-size: 16px;
+}
+
+.Textbox5 h4{
+    text-align: left; 
+    font-family:Arial;
+    font-weight: bold;
+    line-height: 50px;
+    text-indent: 60px;
+    font-size: 20px;
+    
+   
+}
+.Textbox5 p{
+
+    font-size: 18px;
+    
+   
+}
+.boxList{
+    width: 100%;
+    line-height: 28px;
+    border:20px solid gold; 
+    background-color: gold; 
+    font-size: 15px;
+    text-align:center;
+    margin: 0 auto;
+}
+hr.new2{
+    margin-left:2px;
+    width:92%;
+    border: 2px solid #006f6f; 
+}
+hr.new8{
+   width: 80%;
+    border: 2px solid #006f6f;  
+}
+hr.new9{
+   width: 92%;
+    border: 2px solid #006f6f;  
+}
+
+.contactInformation{
+padding-right: 8px;
+}
+.contactInformation1{
+padding-left: 7px;
+}
+
+
+.col2{
+  width: 260px;
+}
+
+#m {
+    height:280px;
+    width: 280px;
+    border:2px solid #006f6f;
+    margin:0 auto;
+}
+#button7 h3 {
+ 
+   font-size: 24px;
+   line-height:0.2px; 
+    text-indent:0px;
+  
+}
+hr.new6{
+    width: 100%;
+    border: 2px solid  #006f6f; 
+}
+.text8 p{
+    padding-left:28px;
+    padding-right: 28px;
+    padding-bottom: 30px;
+    padding-top: 6px;
+    color:#063c3c;
+    font-family:Arial;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 1px;
+}
+.text9{
+    color:blue;
+    font-size: 18px;
+ 
+ font-family:Times New Roman,sans-serif;
+}
+#folder h5{
+   background-color:darkcyan; 
+   text-align: center;
+     font-size: 16px;
+     border:6px solid darkcyan;
+     
+      font-weight: bold;
+}
+#folder1 h5{
+     background-color:darkcyan; 
+   text-align: center;
+     font-size: 16px;
+     border:6px solid darkcyan;
+     
+      font-weight: bold;
+}
+#folder2 h5{
+   background-color:darkcyan;  
+   text-align: center;
+     font-size: 16px;
+      border:6px solid darkcyan;
+     
+      font-weight: bold;
+}
+#folder3 h5{
+   background-color:darkcyan; 
+   text-align: center;
+     font-size: 16px;
+     border:6px solid darkcyan;
+     
+      font-weight: bold;
+}
+.containerBox1{
+  margin-bottom: 0;
+}
+hr.new1{
+    width:88%;
+    border: 2px solid #006f6f; 
+    
+}
+.containerBox h2{
+    line-height:2px ;
+ 
+     text-indent: 30px;
+}
+.containerPicture {
+    position: relative;
+    display: block;
+   
+    text-align: center;
+    margin:0 auto;
+}
+
+.containerPicture img{
+margin-top: 25px;
+    height:170px;
+    width:170px;
+}
+.containerPicture figcaption{
+   margin-top: 10px;
+    font-family:Arial;
+    font-size: 18px; 
+    text-transform: capitalize;
+    color:darkcyan;
+ font-weight: bold;
+    text-align: center;
+      line-height: 45px; 
+ 
+}
+.containerBox1 p{
+    color:#063c3c;
+     font-family:Arial;
+     font-size: 14px;
+     text-align: justify;
+     line-height: 20px;  
+     margin-left: 30px;
+     margin-right: 30px;
+}
+
+}

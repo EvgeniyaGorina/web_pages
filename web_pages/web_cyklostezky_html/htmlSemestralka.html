@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="cs" prefix="og: http://ogp.me/ns#">
+    <head>
+        <title>Bachalor thesis desc.</title>
+          <meta charset="UTF-8">
+          <meta name="description" content="Bachalor thesis description">
+          <meta name="keywords" content="GIS, Bachalor, CZU">
+          <meta name="author" content="Evgeniya Gorina">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta property="og:type" content="website" />
+		  <link rel="stylesheet" href="htmlSemestralka.css" type="text/css"/>
+    </head>
+    <body>
+	<div id="container">
+		<ul id="menu" itemscope>
+		<li><a href="#" itemprop="main_page">Hlavní strana</a></li>
+		<li><a href="#cilBakPrace" itemprop="target">Cíle</a></li>
+		<li><a href="#metodyBakPrace" itemprop="methods">Metody</a></li>
+		<li><a href="#zdrojeBakPrace" itemprop="source">Zdroje</a></li>
+		<li><a href="#trasaPetrohrad" itemprop="route">Trasa</a></li>
+		</ul>
+
+        <main itemscope>
+		<article id="about" itemprop="info">
+		<h1>Moje bakalářkská práce</h1>
+		<p>Tato stránka je věnována mé bakalářkské práci. Cílem této stránky je Vás seznámit s mým cílem a metodami bakalářkské práce. Na konci této stránky se nachází i odkazy ze kterých jsem čerpala inspiraci. Zároveň si můžete prohlédnout i tabulku popisující trasu po Petrohradu.</p>
+		</article>
+		<article id="cilBakPrace" itemprop="about_target">
+		<header><h1>Cíle bakalářské práce</h1></header>
+		<p>Tato bakalářská práce si klade za cíl navrhnout lokální trasy cyklostezek na základě velikosti míry koncentrace cyklistů v jednotlivých částech města a předměstí Petrohradu. Místa, ve kterých se koncentruje nejvíce cyklistů budou sloužit jako výchozí parametry pro integrování cyklostezek do společného prostoru města na mapách. Trasy budou rozděleny v závislosti na jednotlivých bodech zájmů cyklistů a podle jejich druhu a délce. Na mapách budou zároveň zobrazeny jak turistické body zájmů (např.: parky, zámky) tak body zájmu cyklistů (např.: obchody, cykloservisy a úložny kol).</p>
+		</article>
+
+		<article id="metodyBakPrace" itemprop="about_methods">
+		<header><h1>Metody bakalářské práce</h1></header>
+		<p>V bakalářské práci budeme analyzovat skutečná data, čímž získáme data hypotetická, která následně společně zobrazíme na mapách v podobě tras a bodů zájmů. K implementaci získaných dat použijeme program ArcMap verze 10.5.1. Očekávaným výstupem práce bude několik navržených modelů map zobrazující informace o nejfrekventovanějších druzích cyklostezek.</p>
+		</article>
+
+		<article id="zdrojeBakPrace" itemprop="about_sources">
+		<header><h1>Zdroje bakalářkské práce</h1></header>
+		
+		<a href="http://velosipedization.ru/2015/12/report2015/" >http://velosipedization.ru/2015/12/report2015/</a>
+		<a href="https://drive.google.com/file/d/0Bz2PhqWoI5AhaVdwdVZBdmN4dHc/view">https://drive.google.com/file/d/0Bz2PhqWoI5AhaVdwdVZBdmN4dHc/view</a>
+		<a href="http://biomodel.info/ru/training-package/bicycle-routes-impact-mapping-in-kyiv/" >http://biomodel.info/ru/training-package/bicycle-routes-impact-mapping-in-kyiv/</a>
+		<a href="https://www.citacepro.com/dok/Zw2x0KTuKBASD1Zd">https://www.citacepro.com/dok/Zw2x0KTuKBASD1Zd</a>
+
+		</article>
+		
+		<article id="trasaPetrohrad" itemprop="about_route">
+		<header><h1>Výletní trasa po Petrohradu</h1></header>
+		<div class="caption">vyletni</div>
+		<div class="table1"> 
+		<table>
+		<tbody>
+<tr class="tableHeader" itemprop="route_desc">
+<th>Seq position</th>
+<th>Element name</th>
+<th>Street</th>
+<th>start point direction</th>
+<th>start point elevation</th>
+<th>start point position</th>
+<th>corner in direction</th>
+<th>corner in  elevation</th>
+<th>corner in  position</th>
+<th>corner apex direction</th>
+<th>corner apex  elevation</th>
+<th>corner apex  position</th>
+<th>corner out direction</th>
+<th>corner out  elevation</th>
+<th>corner out  position</th>
+<th>end point direction</th>
+<th>end point elevation</th>
+<th>end point position</th>
+<th>end corner apex direction</th>
+<th>end corner apex elevation</th>
+<th>end corner apex position</th>
+<th>end corner out direction</th>
+<th>end corner out elevation</th>
+<th>end corner out position</th>
+</tr>
+<tr>
+<td></td>
+<td>street</td>
+<td>University Enbankment</td>
+<td>WEST</td>
+<td>7</td>
+<td>30.297848 |59.939077</td>
+<td>WEST</td>
+<td>6</td>
+<td>30.29553361 | 59.93841006</td>
+<td>NORTH-WEST</td>
+<td>8</td><td>30.29469677 | 59.93820713</td>
+<td>NORTH</td><td>8</td>
+<td>30.29446073 | 59.93821788</td>
+<td>WEST</td>
+<td>10</td>
+<td>30.28929667 | 59.93683926</td>
+<td>SOUTH-WEST</td>
+<td>7</td>
+<td>30.2880875 | 59.93638203</td>
+<td>SOUTH</td>
+<td>3</td>
+<td>30.28822163 | 59.9359954</td>
+</tr>
+<tr>
+<td></td>
+<td>point</td>
+<td>St Isaac's square</td>
+<td></td>
+<td></td>
+<td>30.30777821|59.93312848</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<!--<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>-->
+<tr>
+<td>6</td>
+<td>point</td>
+<td>Кофе-Стойка PRIDE</td>
+<td></td>
+<td></td>
+<td>30.292504 | 59.931548</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<!--<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>-->
+<tr>
+<td>11</td>
+<td>point</td>
+<td>Park1</td>
+<td></td>
+<td></td>
+<td>30.30362991 | 59.93480411</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>point</td>
+<td>Park2</td>
+<td></td>
+<td></td>
+<td>30.30390349 | 59.93490892</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>point</td>
+<td>Park3</td>
+<td></td>
+<td></td>
+<td>30.30434337 | 59.93528517</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>point</td>
+<td>Park4</td>
+<td></td>
+<td></td>
+<td>30.30493882 | 59.93546792</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>point</td>
+<td>Park5</td>
+<td></td>
+<td></td>
+<td>30.30538944 | 59.93539804</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>point</td>
+<td>Park6</td>
+<td></td>
+<td></td>
+<td>30.30633894 | 59.93540879</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>point</td>
+<td>Park7</td>
+<td></td>
+<td></td>
+<td>30.30663398 | 59.93520723</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td>street</td>
+<td>Blagoveshchenskiy bridge</td>
+<td>SOUTH</td>
+<td>3</td>
+<td>30.28822163 |59.9359954</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SOUTH</td>
+<td>7</td>
+<td>30.29074603 | 59.93333652</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>street</td>
+<td>Ploschať Truda</td>
+<td>SOUTH</td>
+<td>8</td>
+<td>30.29089433 |59.9331939</td>
+<td>SOUTH</td>
+<td>14</td>
+<td>30.29120011 | 59.93264427</td>
+<td>SOUTH-EAST</td>
+<td>15</td>
+<td>30.29130739 | 59.93241</td>
+<td>SOUTH-EAST</td>
+<td>14</td>
+<td>30.29147369 | 59.9322568</td>
+<td>SOUTH-EAST</td>
+<td>12</td>
+<td>30.292009 | 59.93180795</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>street</td>
+<td>N/A</td>
+<td>WEST</td>
+<td>12</td>
+<td>30.292009 |59.93180795</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>WEST</td>
+<td>12</td>
+<td>30.29185924 | 59.93177408</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>street</td>
+<td>N/A</td>
+<td>SOUTH</td>
+<td>12</td>
+<td>30.292009 |59.93180795</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SOUTH</td>
+<td>12</td>
+<td>30.29198969 | 59.93161063</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>street</td>
+<td>N/A</td>
+<td>SOUTH-EAST</td>
+<td>12</td>
+<td>30.29198969 |59.93161063</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SOUTH</td>
+<td>12</td>
+<td>30.29240842 | 59.93151351</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>street</td>
+<td>N/A</td>
+<td>EAST</td>
+<td>12</td>
+<td>30.29252792 |59.93154826</td>
+<td>NORTH-EAST</td>
+<td>12</td>
+<td>30.29287124 | 59.93164368</td>
+<td>EAST</td>
+<td>12</td>
+<td>30.29292951 | 59.93174424</td>
+<td>SOUTH-EAST</td>
+<td>12</td>
+<td>30.29314677 | 59.93172072</td>
+<td>EAST</td>
+<td>11</td>
+<td>30.30295062 | 59.93465919</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>street</td>
+<td>N/A</td>
+<td>SOUTH</td>
+<td>11</td>
+<td>30.30299777 |59.93465956</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SOUTH</td>
+<td>11</td>
+<td>30.30316407 | 59.93453055</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>street</td>
+<td>Konnogvardeyskiy Bul'var</td>
+<td>EAST</td>
+<td>11</td>
+<td>30.30321235 |59.93450905</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>EAST</td>
+<td>11</td>
+<td>30.30349666 | 59.93459717</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>street</td>
+<td>Konnogvardeyskiy Bul'var</td>
+<td>NORTH</td>
+<td>11</td>
+<td>30.30357176 |59.9346133</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>NORTH</td>
+<td>11</td>
+<td>30.30341083 | 59.93473692</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>street</td>
+<td>Admiralteyskiy Prospekt</td>
+<td>EAST</td>
+<td>12</td>
+<td>30.30678634 |59.93511324</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>EAST</td>
+<td>14</td>
+<td>30.3084166 | 59.93574184</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>street</td>
+<td>Voznesensky Ave</td>
+<td>SOUTH-WEST</td>
+<td>15</td>
+<td>30.30678634 |59.93511324</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SOUTH-WEST</td>
+<td>17</td>
+<td>30.30838975 | 59.93330318</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+		</article>
+		</main> 
+		
+    <footer itemscope>
+	<nav>
+	<a href="#">Hlavní strana</a>
+	<a href="#cilBakPrace">Cíle</a>
+	<a href="#metodyBakPrace">Metody</a>
+	<a href="#zdrojeBakPrace">Zdroje</a>
+	<a href="#trasaPetrohrad">Trasa</a>
+	</nav>
+	<p itemprop="name">©Evgeniya Gorina</p>
+	</footer>
+	</div>
+	</body>
+	
+</html>

@@ -1,0 +1,55 @@
+#wrapping-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 1000px;
+    position: relative;
+}
+
+.flex-container{
+    align-self: auto;
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container .item {
+  align-self: auto;
+  margin: 5px;
+  background-color: black;
+  border: 1px solid gray;
+  text-align: center;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  text-decoration: none; 
+  background-color: white;
+  color: black;
+}
+
+.flex-container .item img {
+	max-width: 9em;
+}
+
+.flex-container * {
+    text-decoration: none;
+}
+
+.item:hover {
+    text-decoration: none;
+    background-color: gray;
+     color: white;
+    font-weight: bolder;
+}
+
+.flex-container .item input {
+    max-width: 7em;
+    font-size: x-large;
+}

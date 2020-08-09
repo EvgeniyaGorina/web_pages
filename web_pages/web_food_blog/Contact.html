@@ -1,0 +1,98 @@
+<!Doctype html>
+<!--UTF-8-->
+<html lang="cs">
+<head> 
+
+<title>About Evi & Kristi - Food and Love </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" type="text/css" href="style2.css">
+<script src="https://api.mapy.cz/loader.js"></script>
+<script>Loader.load()</script>
+</head>
+
+<body>
+
+<nav>
+<div id="menuWrapper">
+<ul> <!--vytvareni odkaza-->
+
+<li><a href="index.html">Home</a></li> <!--vlozeni odkaza -->
+<li><a href="About.html">About us</a></li>
+<li><a href="Recipes.html">Recipes</a></li>
+<li><a href="Contact.html">Contact</a></li>
+<li><a href="Crippled.html">Crippled</a></li>
+
+
+<li> <!--delame okenko pro vyhledavani -->
+<form method="get" action="#">
+        <input type="search" placeholder="Search" >
+</form>
+</li>
+</ul>
+</div>
+</nav>
+  
+
+<div id="flexy-wrapper">
+    
+    <div id="logo">
+                <a href="index.html">
+            <img src="images/Food&Love.png" alt="logo" />
+        </a>
+    </div>
+    <div id="column1">
+    <div id="mapa"></div>
+	<script>
+		var stred = SMap.Coords.fromWGS84(14.41, 50.08);
+		var mapa = new SMap(JAK.gel("mapa"), stred, 10);
+		mapa.addDefaultLayer(SMap.DEF_BASE).enable();
+		mapa.addDefaultControls();	      	      
+	</script>
+</div>
+<div id="column2">
+    <h3>Address</h3>
+    <div class="gridcontainer1">
+          <div class="item">City:</div>
+          <div class="item">Praha</div>
+    </div>
+    <div class="gridcontainer1">
+          <div class="item">Street:</div> 
+          <div class="item">XXXX</div> 
+    </div>
+    <div class="gridcontainer1" >
+    <div class="item">House number:</div>
+          <div class="item">6</div>
+    </div>
+    <div class="gridcontainer1" >
+          <div class="item">Zip code:</div> 
+          <div class="item">226 99</div>
+    </div>
+</div>
+            <footer>
+          <nav class="icons">           
+                        <a href="http://www.facebook.com"> 
+                            <img src="images/facebook.png"  alt="facebook">
+                        </a>
+
+                        <a href="http://www.instagram.com"> 
+                            <img src="images/instagram.png"  alt="instagram">
+                        </a>
+      
+                        <a href="http://www.pinterest.com"> 
+                            <img src="images/pinterest.png"  alt="pinterest">
+                        </a>       
+            </nav>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Recipes.html">Recipes</a>
+                <a href="Contact.html">Contact</a>
+                <a href="About.html">About</a>
+            </nav>
+            <p>copyright by Evgeniya Gorina</p>
+    </footer>
+</div>
+
+    
+</body>
+</html>

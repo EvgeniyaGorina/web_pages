@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="map">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="place">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="routes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="route">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="distance">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:float">
+                                  <xs:attribute type="xs:string" name="units"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="points">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="cyclist" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="c-name"/>
+									  <xs:element name="c-age">
+									   <xs:simpleType>
+											<xs:restriction base="xs:integer">
+											<xs:minInclusive value="20"/>
+											<xs:maxInclusive value="50"/>
+											</xs:restriction>
+									 </xs:simpleType>
+									  </xs:element>
+                                      <xs:element name="c-weight">
+									   <xs:simpleType>
+											<xs:restriction base="xs:integer">
+											<xs:minInclusive value="50"/>
+											<xs:maxInclusive value="80"/>
+											</xs:restriction>
+									</xs:simpleType>
+									  </xs:element>
+                                      <xs:element name="c-velocity">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:integer">
+                                              <xs:attribute type="xs:string" name="units" use="optional"/>
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                   
+									  <xs:element name="c-kolo">
+									   <xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Apache"/>
+												<xs:enumeration value="Author"/>
+												<xs:enumeration value="Specialized"/>
+												<xs:enumeration value="Giant"/>
+												<xs:enumeration value="Merida"/>
+											</xs:restriction>
+									</xs:simpleType>
+									  </xs:element>
+									  <xs:element name="c-address">
+									   <xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Voskovcova"/>
+												<xs:enumeration value="Wassermannova"/>
+												<xs:enumeration value="Werichova"/>
+												<xs:enumeration value="University Enbankment"/>
+												<xs:enumeration value="Lamacova"/>
+											</xs:restriction>
+									</xs:simpleType>
+									  </xs:element>
+									  
+                                      <xs:element name="c-city">
+									  	   <xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Praha"/>
+												<xs:enumeration value="Petrohrad"/>
+										
+											</xs:restriction>
+									</xs:simpleType>
+									  </xs:element>
+                                      <xs:element name="c-location">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="c-dir"/>
+                                            <xs:element type="xs:integer" name="c-elev"/>
+                                            <xs:element type="xs:float" name="c-longitude"/>
+                                            <xs:element type="xs:float" name="c-lattitude"/>
+                                            <xs:element type="xs:string" name="c-time"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="start">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="street">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="direction"/>
+                                            <xs:element type="xs:string" name="name"/>
+                                            <xs:element name="s-start">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element type="xs:string" name="dir"/>
+                                                  <xs:element name="elev">
+                                                    <xs:complexType>
+                                                      <xs:simpleContent>
+                                                        <xs:extension base="xs:integer">
+                                                          <xs:attribute type="xs:string" name="units"/>
+                                                        </xs:extension>
+                                                      </xs:simpleContent>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element type="xs:float" name="longitude"/>
+                                                  <xs:element type="xs:float" name="lattitude"/>
+                                                  <xs:element type="xs:string" name="time"/>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="s-corner" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="in">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element type="xs:string" name="dir"/>
+                                                        <xs:element type="xs:integer" name="elev"/>
+                                                        <xs:element type="xs:float" name="longitude"/>
+                                                        <xs:element type="xs:float" name="lattitude"/>
+                                                        <xs:element type="xs:string" name="time"/>
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="apex">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element type="xs:string" name="dir"/>
+                                                        <xs:element type="xs:integer" name="elev"/>
+                                                        <xs:element type="xs:float" name="longitude"/>
+                                                        <xs:element type="xs:float" name="lattitude"/>
+                                                        <xs:element type="xs:string" name="time"/>
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="out">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element type="xs:string" name="dir"/>
+                                                        <xs:element type="xs:integer" name="elev"/>
+                                                        <xs:element type="xs:float" name="longitude"/>
+                                                        <xs:element type="xs:float" name="lattitude"/>
+                                                        <xs:element type="xs:string" name="time"/>
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="s-end">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="s-corner">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element name="in">
+                                                          <xs:complexType>
+                                                            <xs:sequence>
+                                                              <xs:element type="xs:string" name="dir"/>
+                                                              <xs:element type="xs:integer" name="elev"/>
+                                                              <xs:element type="xs:float" name="longitude"/>
+                                                              <xs:element type="xs:float" name="lattitude"/>
+                                                              <xs:element type="xs:string" name="time"/>
+                                                            </xs:sequence>
+                                                          </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="apex">
+                                                          <xs:complexType>
+                                                            <xs:sequence>
+                                                              <xs:element type="xs:string" name="dir"/>
+                                                              <xs:element type="xs:integer" name="elev"/>
+                                                              <xs:element type="xs:float" name="longitude"/>
+                                                              <xs:element type="xs:float" name="lattitude"/>
+                                                              <xs:element type="xs:string" name="time"/>
+                                                            </xs:sequence>
+                                                          </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element name="out">
+                                                          <xs:complexType>
+                                                            <xs:sequence>
+                                                              <xs:element type="xs:string" name="dir"/>
+                                                              <xs:element type="xs:integer" name="elev"/>
+                                                              <xs:element type="xs:float" name="longitude"/>
+                                                              <xs:element type="xs:float" name="lattitude"/>
+                                                              <xs:element type="xs:string" name="time"/>
+                                                            </xs:sequence>
+                                                          </xs:complexType>
+                                                        </xs:element>
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="point" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="street" minOccurs="0">
+                                        <xs:complexType mixed="true">
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="direction"/>
+                                            <xs:element type="xs:string" name="name"/>
+                                            <xs:element name="s-start">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element type="xs:string" name="dir"/>
+                                                  <xs:element type="xs:integer" name="elev"/>
+                                                  <xs:element type="xs:float" name="longitude"/>
+                                                  <xs:element type="xs:float" name="lattitude"/>
+                                                  <xs:element type="xs:string" name="time"/>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="s-corner" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="in">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element type="xs:string" name="dir"/>
+                                                        <xs:element type="xs:integer" name="elev"/>
+                                                        <xs:element type="xs:float" name="longitude"/>
+                                                        <xs:element type="xs:float" name="lattitude"/>
+                                                        <xs:element type="xs:string" name="time"/>
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="apex">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element type="xs:string" name="dir"/>
+                                                        <xs:element type="xs:integer" name="elev"/>
+                                                        <xs:element type="xs:float" name="longitude"/>
+                                                        <xs:element type="xs:float" name="lattitude"/>
+                                                        <xs:element type="xs:string" name="time"/>
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="out">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element type="xs:string" name="dir"/>
+                                                        <xs:element type="xs:integer" name="elev"/>
+                                                        <xs:element type="xs:float" name="longitude"/>
+                                                        <xs:element type="xs:float" name="lattitude"/>
+                                                        <xs:element type="xs:string" name="time"/>
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="s-end">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element type="xs:string" name="dir"/>
+                                                  <xs:element type="xs:integer" name="elev"/>
+                                                  <xs:element type="xs:float" name="longitude"/>
+                                                  <xs:element type="xs:float" name="lattitude"/>
+                                                  <xs:element type="xs:string" name="time"/>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="title" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="web" minOccurs="0"/>
+                                      <xs:element type="xs:string" name="time" minOccurs="0"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:float" name="long" use="optional"/>
+                                    <xs:attribute type="xs:float" name="lat" use="optional"/>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="end">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="point">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="title"/>
+                                            <xs:element type="xs:string" name="web"/>
+                                            <xs:element type="xs:string" name="time"/>
+                                          </xs:sequence>
+                                          <xs:attribute type="xs:float" name="long"/>
+                                          <xs:attribute type="xs:float" name="lat"/>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="title"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="name"/>
+            <xs:attribute type="xs:float" name="lat"/>
+            <xs:attribute type="xs:float" name="long"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

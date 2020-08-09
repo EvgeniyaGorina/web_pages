@@ -1,0 +1,127 @@
+* {
+    color: black;
+    text-decoration: none;
+}
+body {
+    margin: 0 auto;
+    width: 80%;
+    min-width: 500px;
+}
+
+ul {
+list-style: none;
+}
+
+
+#menuWrapper {
+    position: fixed;
+    border-bottom: 2px dotted black;
+    text-align: center;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    z-index: 999;
+}
+
+#menuWrapper ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    text-align:center;  
+}
+
+#menuWrapper ul li {
+display: inline-block;
+margin-right: 1%;
+} 
+ul li a{
+     text-decoration:none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/*#linking {
+
+}*/
+
+/*#linking ul {
+
+display: inline;
+}
+
+#linking ul li {
+display: inline-block;
+margin-right: 1%;
+} */
+
+
+.French_ToastToast {
+ /*width: 80%;
+ height: 80%;
+*/
+max-width: 100%;
+    height: auto;
+}
+
+
+/*.tbl td:nth-child(2) {
+	width: 30%;
+	
+	border: 1px solid green;
+}*/
+
+/*.tbl td:nth-child(1) {
+	width: 70%;
+	border: 1px solid blue;
+}*/
+/*.tbl tr:nth-child(2){
+    border:1px solid gold;
+    height: 7em;
+    background-color:  royalblue; } */
+
+footer {
+    background-color: gray;
+    color: white;
+    float: left;
+    clear: right;
+    width: 100%;
+    padding: 5px;
+    max-height: 200px;
+    text-align: center;
+}
+
+footer .icons {
+    display: inline;
+}
+footer .icons a{
+    display: inline-block;
+}
+footer .icons a img{
+    max-width: 42px;
+}
+
+footer .icons a img:hover {
+    clear: right;
+     max-width:42px;
+     border-radius: 12px;
+    background-color: white;
+}
+
+footer nav {
+          text-align: center;
+        position: relative;    
+}
+
+footer nav * {
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
