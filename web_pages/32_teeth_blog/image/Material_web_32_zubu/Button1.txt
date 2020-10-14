@@ -1,0 +1,115 @@
+<div id="button1">
+        
+        <img class="Zubar" src="./obrazky/Zubar.png" alt="dentist">    
+           <h1> vítame vás v naší ordinaci</h1>
+                <p>Vytvořili jsme dlouhodobý vztah založený na důvěře s pacienty. V naší ordinaci pomocí
+                moderních technologii a velkou zkušeností personálů Vám poskytnou osobní přistup a výbornou péče. 
+               Odborné znalostí a výjimeční zdravotní zkušenost našeho lékaře Vám pomohou 
+                dosáhnout excelentního stavu vašich zubů. Péče o Vaše zdraví je hlavním cílem naše ordinace.</p> 
+    </div> <!--INSIDE THAT MEAN BETWEEN OF 2 DIVES :
+<div class="ButtonsAll">
+        
+        
+     HERE HERE HERE HERE HERE HERE   
+        
+    
+<div id="button2">-->
+
+
+#button1 {
+    background: white;
+    width:90%;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    overflow: auto;
+}
+
+img.Zubar  {
+    height: 210px;
+    width:315px; 
+    float:right;
+    margin: 8%;
+    border: 6px solid darkcyan;
+}
+#button1 h1  {
+    line-height:60px ;
+    font-family:Arial;
+    font-size: 30px; 
+    text-transform: uppercase;
+    color:darkcyan;
+    font-weight: bold;
+    
+}
+#button1 p {
+     color:#063c3c;
+     font-family:Arial;
+     font-size: 20px;
+     text-align: justify;
+     line-height: 35px;  
+}
+
+
+@media screen and (max-width:1080px){
+#button1 {
+    width:96%;
+    position: relative;
+    display: block;
+}
+
+#button1 h1  {
+    line-height:40px ;
+    font-size: 24px;   
+}
+#button1 p {
+     font-size: 16px;
+     line-height: 30px; 
+}
+
+@media screen and (max-width: 800px){
+   #button1 {
+    width:96%;
+    position: relative;
+    display: block;
+}
+img.Zubar  {
+    height: 170px;
+    width:275px; 
+    float:right;
+    margin: 10%;
+    border: 6px solid darkcyan;
+}
+#button1 h1  {
+    line-height:30px ;
+    font-size: 20px;   
+}
+#button1 p {
+    font-size: 14px;
+    line-height: 26px; 
+}
+@media screen and (max-width: 700px){
+ #button1 {
+    background: greenyellow;
+    top:2em;
+    width: 88%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+img.Zubar  {
+    margin: 0;
+    height: 140px;
+    width:215px; 
+    float: none;
+    border: 6px solid darkcyan;
+}
+#button1 h1  {
+    line-height:30px ;
+    font-size: 24px;   
+}
+#button1 p {
+     font-size: 16px;
+     line-height: 24px; 
+}

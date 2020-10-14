@@ -1,0 +1,18 @@
+<div class="container">
+  
+        <h2><i class='fas fa-bus-alt'  style='font-size:20px;color:darkcyan'></i><span> Doprava</span></h2>                                                                           
+  <div class="table-responsive">          
+  <table class="table">
+   
+    <tbody>
+    <tr>
+        <td>Tramvaje:</td>
+        <td>5,12, 20, 24</td>
+        </tr>
+     <tr>
+        <td>Autobusy:</td>
+        <td>170, 120, 130, 230</td>
+        </tr>
+    </tbody>
+  </table>
+  </div>

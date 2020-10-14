@@ -1,0 +1,45 @@
+.Buttons{
+  /*  border: 6px solid red;*/
+   margin: 4%;
+   width: 90%;
+   position: relative;   
+  overflow: auto;
+}
+
+.MiddleMenu {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-left: 2%;
+    display:inline-block;
+
+}
+
+.MiddleMenu .myiItem {
+    border:6px solid darkcyan;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    width: 22em;
+    height: 22em;
+    background-color: darkcyan;
+}
+.MiddleMenu a:focus {
+    text-decoration: none;
+}
+
+.myiItem  h6 {
+    font-family: Baskerville Old Face;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.myiItem  img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    margin: 10%;
+
+}

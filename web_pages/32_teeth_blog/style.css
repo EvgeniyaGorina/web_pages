@@ -1,0 +1,683 @@
+
+/*Global definitions*/
+body *{
+       margin: 0 auto;
+       font-family:Open Sans;
+       font-style: normal;
+	   font-weight: lighter;
+       color:#063c3c;/*#333333;*/
+}
+i{
+    color:#1CBABA;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color:#1CBABA;
+    line-height: 1.8;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;  
+    color:#1CBABA;
+}
+
+h3{
+    text-transform: uppercase;
+    color:#1CBABA;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+p{
+    text-align: justify;   
+    color:#063c3c;
+}
+.colorText{
+    color:red;
+    font-family: Arial;
+    font-weight: bold;
+}
+.sections{
+    margin-top: 60px;
+}
+
+/******Navigation******/
+header{
+   background:#FFD910; 
+   padding-top: 15px;
+   padding-bottom: 15px;
+   width: 100%;
+   position: fixed;
+   z-index:1000;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;  
+}
+
+nav > div{
+   margin-left:20px;
+   margin-right:20px;
+}
+.nav-ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0;
+    list-style: none;
+}
+
+.barIcon{
+    display:none;
+    background-color:transparent;
+    border:0;
+    font-size: 36px;
+    cursor:pointer;
+    margin-right:1em;
+}
+
+
+.nav-ul li a {
+    display: inline-block;
+    font-family: Open Sans;
+        color:#3f4d4d; /*#4e5151;*/
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.barIcon:focus{
+    outline: none;
+}
+
+.nav-ul li  a:hover{
+    /* color:#333333;*/
+    color:#1CBABA;
+    font-weight: bold;
+}
+#contacts img{
+    width: 40px;
+    height: 20px;
+}
+
+#logo img{
+   width: 140px;
+   height: 60px;
+}
+
+
+
+/*****Galery******/
+#galery > *{
+    top:80px;
+    margin: 0 auto;
+    width: 100%;
+    position:relative;
+}
+.pct{
+    width: 1280px;
+    height: 526px;
+
+}
+/*** Nav Bar*****/
+
+    
+
+#navBar{
+    gap:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;  
+}
+
+.navBar{ 
+width: 300px;
+height:300px;
+background: #1CBABA;
+display:flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-flow: column;
+
+}
+.navBar a{
+    text-decoration: none;
+}
+.navBar img{
+width: 100px;
+height:100px;
+}
+.navBar a > p {
+   margin-top: 20px;
+   font-size: 20px; 
+    color: white;
+   font-weight: bold;
+   text-align: center;
+}
+
+/*Back up to top button**********************************************/
+
+
+.backup{
+    display: none;
+    z-index: 200;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 54px;
+    height:48px;     
+}
+
+/*SECTION WELCOME *************************************************************/
+
+#about{
+    display:flex;
+    gap:40px;
+    flex-direction:row; 
+    height: auto;
+}
+.frstSection{
+display:flex;
+flex-flow: row;
+flex-wrap: wrap;  
+
+}
+
+#imgFrstSctn img{
+    border:4px solid #1CBABA;
+    width: 290px;
+    height: 196px;
+}
+#textFrstSctn{
+    text-align: justify;
+}
+
+
+/*SECTION ABOUT OUR TEAM **************************************************/
+
+.line{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #1CBABA;
+    background:#1CBABA; 
+}
+
+#doctorIcon{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+}
+#doctorIcon1{
+   margin-left:40px;
+    width: 40px;
+    height: 40px;
+}
+.doctorIcon{
+       margin-top: 40px;
+}
+.doctor{
+    margin-left: 16px;
+    font-weight: bold;
+ 
+}
+.doctorIcon hr{
+     width: 80%;
+    margin-top: 10px;
+}
+
+/*SECTION BAR and BTN MORE/LESS ***********************************************/
+#bar{
+    margin-top: 120px;
+}
+#bar hr{
+   margin-top: 60px;
+   border: 2px solid #FFD910; 
+   margin-bottom: 0;
+   z-index: 6;
+   background:#FFD910; 
+}
+
+#bar h2{
+  text-align: center;
+  margin-top: -36px;  
+  margin-bottom: 20px;
+}
+
+.BarIconsBtn{
+   margin-top: -6px;
+   padding-left: 0;
+   margin-left: -2px;
+}
+
+.BarIconsBtn{
+    width: 60px;
+    height: 60px;
+}
+
+#collapse ul{
+   font-size: 14px;
+   list-style-image:url('./image/dot.svg');
+}
+
+/****BTN READ MORE/LESS************/
+#bar a{
+    text-decoration: none;
+    color:#1CBABA;
+    font-weight: bold;
+    border-bottom: 1px solid #1CBABA;
+}
+
+#bar a:hover {
+ font-size:18px;
+}
+ /*****SECTION SERVICE*********************************************************/
+ 
+ 
+ #insurance{
+   margin-top:40px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-flow: row;
+   align-items: center;
+ }
+ 
+ #OZP{
+     width: 140px;
+     height: 120px;
+ }
+ #PRUMS{
+     width: 140px;
+     height: 70px;
+ }
+ #VZP{
+    width: 170px;
+    height: 90px; 
+ }
+ #VOZ{
+    width: 160px;
+    height: 100px; 
+ }
+ 
+ /****SECTION CONTACTS*********************************************************/
+ 
+ .yellowIcons{
+     width: 30px;
+     height: 30px;
+ }
+ #yellowphone{
+     width: 40px;
+     height: 30px;
+ }
+ 
+ #yellowmail{
+     width: 40px;
+     height: 20px;
+     margin-left: 12px;
+ }
+ 
+ table{
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-align: center;
+ }
+ 
+ table p{
+     text-align: center;
+ }
+ 
+ #m {
+    margin: 0 auto;
+    height: 360px;
+    width: 860px;
+    border: 2px solid #006f6f;
+}
+
+.card-header {
+  
+    background-color:transparent;
+    border-bottom:1px solid rgb(255,217,16);
+}
+.card-footer {
+    padding: 0;
+    background-color:white;
+    border-top:1px solid transparent; 
+}
+strong{
+    margin-left: 6px;
+    text-transform: uppercase;
+    color:#1CBABA;
+}
+
+/***WORK HOURS SECTION*********************************************************/
+#news{
+   display: flex;
+   flex-wrap: wrap;
+   flex-flow: row;
+   width: 100%;
+   gap:30px;
+}
+.hours{
+display: flex;
+width:200px;
+border: 2px solid #FFD910;
+padding-bottom: 12px;
+
+}
+
+.hours th>h3{
+   width:200px;
+}
+#newsPost{
+display: flex;
+flex-flow: column;   
+margin-top: 6px;
+word-break: break-all;
+    
+}
+
+#newsPost h3{
+    border-bottom: 2px solid #FFD910;
+}
+
+/***SECTION OF EXTRA INFORMATION***********************************************/
+
+.col-lg-3 {
+    margin-bottom: 20px;
+}
+
+.col-lg-3 >h3{ 
+   padding-top: 6px;
+   padding-bottom: 2px;
+   text-align: center;
+   background-color: #1CBABA;
+   text-transform: none;
+   font-weight: bold;
+   font-family: Arial;
+   color: white;   
+}
+/***FOOTER*********************************************************************/
+footer{
+    width: 100%;
+    z-index:300;
+    position: relative;
+    background: #1CBABA;
+}
+footer h3{ 
+   color:white;
+   margin-top: 30px;
+}
+
+
+#footerSctn{
+    width:100%;
+    display:inline-flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2px; 
+}
+
+#footerLogo{
+    width: 300px;
+    display:flex;
+    flex-flow:column;  
+}
+#footerCntcts{
+    display:flex;
+    flex-flow:column;   
+}
+#footerNav{
+    display:flex;
+    flex-flow:column;   
+}
+
+.ftrparts ul{
+ margin-top:-3px;   
+ margin-left:-30px;   
+}
+
+.ftrparts table{
+     margin-top:-3px;   
+}
+/*TEXT FOOTER*/
+.ftrparts p,a, span, ul{
+  font-size: 14px; 
+  list-style:none;
+  text-align: center;
+}
+.ftrparts li a{
+    text-decoration: none;
+}
+
+.ftrparts table p{
+    font-size: 14px;
+}
+/*ICONS AND LOGO FOOTER*/
+.ftp_yellowIcons{
+    width: 23px;
+    height: 25px;
+}
+#ftp_yellowphone{
+     width: 30px;
+    height: 30px; 
+}
+#ftp_yellowmail{
+    margin-left:10px;
+    width: 23px;
+    height: 20px;  
+}
+#ftrLg {
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 100px;
+    height: 60px;
+}
+
+#copiright{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#copiright p{
+ 
+    color: white;     
+   text-align: center;
+}
+
+.ftrparts a:hover{
+    color:white;
+}
+
+.listsctn li{
+    text-align: left;
+}
+/***MEDIA QUERY FOR TABLETS*********************************************************************************************************************************/
+@media screen and (max-width: 1000px){
+h1{
+    font-size: 18px;
+} 
+h2{
+    font-size: 16px;
+}
+.backup{
+    display: none;
+    z-index: 200;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 54px;
+    height:48px;     
+}
+/*Galery responsetive for tablets**********************************************/
+
+nav > div{
+   margin-left:10px;
+   margin-right:10px;
+}
+.nav-ul li a{
+    font-size: 16px;
+}
+
+ #contacts{
+    font-size: 14px;
+}
+ #contacts img{
+    width: 36px;
+    height: 18px;
+}
+
+/*Galery response**************************************************************/
+
+.pct{
+    height: 500px;
+}
+
+
+/*****NAV BAR RESPOSIBLE for tablets*******************************************/  
+ #navBar{
+    gap:5px;
+ }
+.navBar{ 
+width: 300px;
+height:200px;
+}
+
+.navBar img{
+width: 60px;
+height:60px;
+}
+
+.navBar a > p {
+   margin-top: 10px;
+   font-size: 16px; 
+}
+
+
+/*SECTION WELCOME FOR TABLETS VERSION*******************************************/
+#about{
+  flex-wrap: wrap;
+  flex-direction:column;
+  gap:30px;
+}
+/*SECTION CONTACTS FOR TABLETS VERSION*******************************************/
+#m {
+    height: 280px;
+    width: 430px;
+}
+
+/*SECTION WORK HOURS FOR TABLETS VERSION***************************************/
+
+
+/*FOOTER FOR TABLETS VERSION***************************************************/
+
+}
+
+
+
+
+
+
+/**MEDIA QUERY FOR MOBILES***********************************************************************************************************************************/  
+@media screen and (max-width: 760px) {
+    /**/  
+    
+    /*Nav respons**************************************************************/   
+    
+    .nav-ul{
+        display: none;
+        flex-direction: column;
+    }
+    
+    .barIcon{
+        display:block;
+    }
+    
+    .nav-ul.show{
+        display:flex;
+        width:100%;
+    }
+    #contacts{
+    display:none;
+    }
+
+/*Galery response**************************************************************/
+
+#galery{
+   display:none;
+}
+
+/****NAV BAR RESPOSIBLE FOR MOBILE********************************************************/ 
+/*WHITH MARGIN TOP!!!*/
+#navBar{ 
+    margin-top:96px;
+    flex-direction:column;
+}
+.navBar{ 
+width: 300px;
+height:300px;
+
+}
+.navBar img{
+width: 100px;
+height:100px;
+}
+.navBar a > p {
+margin-top: 20px;
+font-size: 20px; 
+}
+
+/*SECTION BAR and READ MORE/LESS BTN *******************************************/
+#bar{
+    margin-top: 80px;
+}
+
+#bar h2{
+  font-size: 18px;
+  margin-left:60px;
+}
+
+/*SECTION SERVICE BTN *******************************************/
+
+#insurance{
+   margin-top:40px;
+   flex-flow: column;
+ }
+
+ .imgInsrnc{
+     margin-bottom: 20px;
+ }
+ 
+ /*SECTION CONTACTS FOR MOBILE*************************************************/
+#m {
+    height: 220px;
+    width: 320px;
+}
+.card{
+    display: none;
+}
+/*SECTION WORK HOURS FOR TABLETS VERSION***************************************/
+#news{
+flex-flow: column;
+}
+
+
+#newsPost{  
+margin-top: -20px;
+}
+.hours{
+    width: 200px;
+}
+
+}
